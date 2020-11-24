@@ -1,0 +1,159 @@
+html, body 
+{
+    position: relative;
+    width: 100%;
+    height: 1578px;
+    background: #FFFDF4;
+    margin: inherit;
+}
+
+header
+{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    background: #A3A3A3;
+    width: 100%;
+    height: 112px;
+    margin: 0 auto;
+}
+
+.top-nav-main 
+{
+    position: relative;
+    z-index: 200;
+    height: 60px;
+    bottom: -60px;
+    border-radius: 100px;
+    background-color: #C4C4C4;
+    box-shadow: 0 3px 0.25em rgba(17, 17, 17, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    -webkit-transition: padding 0.2s;
+    transition: padding 0.2s;
+    margin-bottom: inherit;
+}
+
+.menu-menu
+{
+
+    padding: 13.33333px;
+    position: relative;
+    list-style: none;
+    font-weight: bold;
+}
+
+.header_down
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 470.55px;
+    background-image: url("https://kckdata.io/localized/fr/img/homepage/poster.jpg");
+    clip-path: ellipse(100% 100% at 50% 0%);
+}
+
+.formsearch
+{
+    flex-basis: auto;
+    flex-grow: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+}
+
+.form-control 
+{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color:#ffffff;
+    background-color:  #ffffff83;
+    background-clip: padding-box;
+    border-radius: 50px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.form-control:hover
+{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+.separateur
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+scroll-container
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: #A3A3A3;
+    scroll-behavior: auto; 
+    overflow-y: scroll;
+    border-bottom: 30px solid #A3A3A3;
+}
+
+scroll-container:hover
+{
+    scroll-behavior: auto;
+    overflow-y: scroll;
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.annonces
+{
+    position: relative;
+    width: 100%;
+    -ms-flex: 0 0 21%;
+    flex: 0 0 21%;
+    margin-top: 30px;
+    height: 400px;
+    margin: 2.0%;
+    background: #F50777;
+}
+
+.above
+{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 80%;
+}
+
+.description
+{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 2% 5%;
+    height: 16%;
+}
