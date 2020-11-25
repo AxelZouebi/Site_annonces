@@ -3,9 +3,9 @@
 @section('content')
   <div class="block h-24">
     <div class="my-8 flex w-full h-full justify-center relative">
-      <p class="h-12 my-auto text-3xl text-center text-blue-800">
-        <h1>Trouvez votre Click & Collect !</h1>
-      </p>
+      <h1 class="h-12 my-auto text-3xl text-center text-blue-800">
+        Trouvez votre Click & Collect !
+      </h1>
     </div>
   </div>
   <div class="block h-36 justify-between items-center bg-img-map">
@@ -13,20 +13,20 @@
   </div>
   <div class="block h-20">
     <div class="flex w-full h-full justify-center relative">
-      <p class="h-12 my-auto text-3xl text-center text-blue-800">
-        <h2>Les dernières annonces partout en France !</h2>
-      </p>
+      <h1 class="h-12 my-auto text-3xl text-center text-blue-800">
+        Les dernières annonces partout en France !
+      </h1>
     </div>
   </div>
   <div class="flex flex-wrap">
   @foreach($jobs as $job)
-  <div class="flex-add px-3 h-96 py-5 mx-auto mb-3 shadow-sm hover:shadow-md rounded border-2 border-gray-200">
-    <div class="relative w-full h-64 mb-2 border-2 border-black">    
+  <div class="flex-add px-3 h-108 py-5 mx-auto mb-3 shadow-sm hover:shadow-md rounded border-2 border-gray-200">
+    <div class="relative w-full h-72 mb-2 border-2 border-black">    
         <img src="{{ asset('uploads/' . $job->image) }}" alt="" class="object-fill h-full w-full">
     </div>
     <div class="relative w-full h-1/3">
         <div class="block mb-2">
-            <h2 class="break-all text-xl font-bold text-green-800">
+            <h2 class="break-all text-xl font-bold text-blue-800">
                 {{ $job->title }}
             </h2>
         </div>

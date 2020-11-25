@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="mt-12">
-    <h1 class="text-3xl text-green-500 mb-6 text-center">
+    <h1 class="text-3xl text-blue-800 mb-6 text-center">
         Creez un compte pour ajouter une annonce
     </h1>
     <form method="POST" action="{{ route('register') }}" class="w-full max-w-sm mx-auto rounded-lg border shadow-md p-5 mb-5">
@@ -63,7 +63,7 @@
             <span class="text-red-400 text-sm block">{{ $message }}</span>
         @enderror
 
-        <button type="submit" class="bg-green-500 text-white hover:bg-green-700 transition ease-in-out duration-500 rounded-md shadow-md w-full block px-4 py-2 mt-3">
+        <button type="submit" class="bg-blue-800 text-white hover:bg-blue-900 transition ease-in-out duration-500 rounded-md shadow-md w-full block px-4 py-2 mt-3">
             Créer mon compte
         </button>
     </form>
