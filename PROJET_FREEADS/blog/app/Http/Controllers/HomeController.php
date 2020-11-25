@@ -98,7 +98,7 @@ class HomeController extends Controller
                 $update = Job::find($id);
                 $update->title = $request->input('title', $add->title);
                 $update->description = $request->input('description', $add->description);
-                $update->city_id = DB::select('select id from tb_users where cities = $request->input("cities")', $add->city_id);
+                $update->city_id = $request->input('cities', $add->city_id);
                 $update->image = $request->file('image')->storeAs('add', $request->input('title', $add->title).'.'.$extension);
 
                 $update->save();

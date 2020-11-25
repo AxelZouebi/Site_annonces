@@ -18,7 +18,7 @@ use App\Http\Controllers\ConversationController;
 |
 */
 
-Route::get('/accueil', [JobController::class, 'accueil'])->name('accueil');
+Route::get('/', [JobController::class, 'accueil'])->name('accueil');
 //Route::get('/{connect}', [JobController::class, 'accueil'])->name('accueil_connect');
 /*Route::get('/pls_connect', function () {
     return view('ask_connect');

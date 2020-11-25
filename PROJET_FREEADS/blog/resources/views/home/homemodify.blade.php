@@ -33,6 +33,7 @@
     </div>
     <div class="flex flex-wrap">
         @foreach ($adds as $add)
+        @if($add->user_id == Auth::id())
         <div class="flex-add px-3 py-5 h-128 w-5/6 mx-auto mb-3 shadow-sm hover:shadow-md rounded border-2 border-gray-200">
             <form method="POST" enctype="multipart/form-data" action="{{ route('image_modifier') }}" id="modify" class="">
                 @csrf
@@ -82,6 +83,7 @@
                 </div>
             </form>
         </div>
+        @endif
         @endforeach
     </div>
 </div>

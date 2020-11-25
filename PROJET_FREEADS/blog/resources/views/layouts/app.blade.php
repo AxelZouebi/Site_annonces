@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Site d'annonce en ligne optimisé pour le click & collect partout en france">
         <title>
             CNC
         </title>

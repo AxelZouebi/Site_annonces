@@ -5,7 +5,7 @@
                 <div class="relative -left-50">
                     <a class="text-white text-4xl font-bold py-4" href="{{ route('jobs.index') }}">
                         <!-- <img src="{{ asset('img/upwirk-logo.png') }}"> -->
-                        C&C
+                        <h1>C&C</h1>
                     </a>
                 </div>
             </div>

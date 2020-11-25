@@ -33,6 +33,7 @@
     </div>
     <div class="flex flex-wrap">
         @foreach ($adds as $add)
+        @if($add->user_id == Auth::id())
         <div class="flex-add px-3 h-96 w-3/4 py-5 mx-auto mb-3 shadow-sm hover:shadow-md rounded border-2 border-gray-200">
             <div class="relative w-full h-56 mb-2 border-2 border-black">    
                 <img src="{{ asset('uploads/' . $add->image) }}" alt="" class="object-fill h-full w-full">
@@ -59,6 +60,7 @@
                 </div>
             </div>
         </div>
+        @endif
         @endforeach
     </div>
 </div>
